@@ -1,0 +1,301 @@
+/* Start main root */
+*{ 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+button:focus, input:focus{
+    outline: none;
+}
+body {
+     padding-top: 50px; 
+}
+/* End main root */
+
+/* Modify Bootstrap Start */
+
+/* navbar start */
+.navbar {
+    background-color: #000038;
+}
+.navbar-brand{
+    color: #C00;
+}
+.navbar ul li a {
+    color: #EAEAEA;
+    font-size: 16px;
+    font-weight: bold
+}
+.navbar ul li.active{
+    background-color: #C00;
+    color: #EEE;
+}
+.navbar-toggle .icon-bar{
+    background-color: #333;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+    background-color: #C00;
+    color: #EEE;
+}
+/* navbar End */
+
+/* Slider Start */
+.carousel-inner > .item > img {
+    width: 100%;
+    height:550px;
+}
+.carousel-inner .carousel-caption {
+    background-color: #6764;
+    margin-bottom: 160px;
+    padding-bottom: 0;
+}
+.carousel-inner .carousel-caption p {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.carousel-inner .carousel-caption h3 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    
+}
+.carousel-indicators .active {
+    width: 22px;
+    height: 22px;
+    background-color: #EAEAEA
+}
+/* slider End */
+
+.team .elements img.img-responsive {
+    display: inline;
+}
+.contact .input-group {
+    margin-bottom: 30px;
+    width: 100%;
+}
+.contact textarea.form-control{
+    height: auto;
+}
+
+/* Modify Bootstrap End */
+
+
+/* main Css Start */
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0400ff57;
+    z-index: 1;
+}
+
+/* section About Start */
+.about{
+    background: #CCC3;
+    padding: 65px;
+}
+section .section-title h2{
+    font-size: 38px;
+    color: #676767;
+}
+.about .section-title hr, .contact .section-title hr{
+    width: 140px;
+    border-top: 1px solid #C00;
+}
+section p.lead{
+    line-height: 150%;
+    margin-top: 30px;
+}
+/* section About End */
+
+/* section Services Start */
+.services{
+    padding: 5px;
+    padding-top: 50px;
+}
+.services .row {
+    margin-top: 25px;
+}
+.services .section-title hr{
+    width: 160px;
+    border-top: 1px solid #C00;
+}
+.services .elmentes{
+    padding: 15px 15px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.services .elmentes i {
+    color: #C00;
+}
+.services .elmentes hr {
+    margin-left: 0;
+    width: 100px;
+    border: 1px solid #C00;
+}
+@media ( max-width: 992px ){
+ .services .elmentes{
+    padding: 10px;
+    text-align: center;
+}
+.services .elmentes hr{
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+}
+/* section About End */
+
+/* section Product Strat */
+.product{
+    background: #CCC3;
+    padding: 5px;
+    padding-top: 50px;
+}
+.product .elements{
+    padding: 15px 15px;
+    margin-bottom: 30px;
+}
+.product hr{
+    width: 80px;
+    border: 1px solid #C00;
+}
+.product .section-title hr{
+    width: 150px;
+}
+/* section Product End */
+
+/* section Team Start */
+.team {
+    padding: 15px;
+    padding-top: 50px;
+}
+.team hr {
+    width: 70px;
+    border: 1px solid #C00;
+}
+.team .elements{
+    cursor: pointer;
+    padding: 15px 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.team .elements img{
+    margin-bottom: 20px;
+    border: 1.5px solid #C00;
+}
+.team .elements h4{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.team .elements h5{
+    color: #676767
+}
+.team .elements .team-social i{
+    color: #676767;
+    margin: 5px;
+}
+/* section Team End */
+
+/* section Contact Start */
+.contact {
+    background: #CCC3;
+    padding: 15px;
+}
+.contact form {
+    margin-top: 10px;
+    padding: 15px;
+}
+
+/* section Contact End */
+
+/* Footer Start */
+footer {
+    background: #000038;
+    padding: 15px;
+    margin-top: 30px;
+    color: #EAEAEA;
+}
+footer p.lead{
+    font-size: 16px;
+    margin: 10px 0;
+    display: inline-block;
+}
+footer a{
+    text-decoration: none;
+    color: #AAA;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #C00;
+}
+/* Footer End */
+
+/* main Css End */
+
+/* Respensive Start */
+    /* Screen Mobile start */
+@media ( max-width: 767px ){
+    .carousel-inner .carousel-caption {
+        display: none;
+    }
+    .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+
+    }
+    .carousel-indicators .active {
+        width: 17px;
+        height: 17px;
+        background-color: #EAEAEA
+    }
+    .carousel-inner > .item > img {
+        height:300px;
+    }
+    
+}
+    /* Screen Mobile End */
+    
+    /* Small Secreen Start */
+@media ( min-width: 768px ){
+   .carousel-inner .carousel-caption {
+        margin-bottom: 140px;
+    }
+    .carousel-inner .carousel-caption p {
+        font-size: 18px;
+    }
+    .carousel-inner .carousel-caption h3 {
+        font-size: 30px;
+    }
+    
+}
+    /* Small Secreen End */
+    
+    /* Medium Secreen Start */
+@media ( min-width: 992px ){
+
+}
+    /* Medium Secreen End */
+    
+    /* Large Screen Start */
+@media ( min-width: 1200px ){
+    
+}
+    /* Large Screen End */
+    
+/* Respensive End */
+
+/* FrameWork Start */
+/* FrameWork End */
+
+
